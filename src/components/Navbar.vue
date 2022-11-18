@@ -1,6 +1,6 @@
 <template>
-  <div class = "px-[115px] mt-4 bg-white">
-    <div class = "flex items-center justify-between w-full">
+  <div class = "mt-4 bg-white">
+    <div class = "container mx-auto px-5 flex items-center justify-between w-full">
       <div class = " flex items-center gap-x-4 text-sm">
         <div>
           <input type="radio" id="text1" name="text" class = "w-0 peer" checked>

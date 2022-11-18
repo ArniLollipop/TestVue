@@ -1,7 +1,7 @@
 <template>
   <section class = " w-full">
     <div class = "bg-white border-b border-[#E0E3EB] w-full">
-      <div class = "px-[110px] py-4 flex items-center justify-between">
+      <div class = "mx-auto px-5 py-4 flex items-center justify-between container">
         <div class = "flex items-center gap-x-5">
           <LogoMenu/>
           <p class = "text-3xl font-bold text-[#42A5F5]">LOGO</p>
