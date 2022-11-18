@@ -2,10 +2,10 @@
   <div id="App">
     <Header></Header>
     <Navbar />
-    <div class="bg-[#F5F5F5] pb-20 mt-2">
+    <div class="bg-[#F5F5F5] pb-20 mt-2 min-h-[88vh]">
       <Filters class=""></Filters>
       <Filter_Button :button_class="buttons_class" />
-
+      <Filter_Text :text_class="text_class" />
       <Todo v-for="item in todoList" :key="item.id" :todoList="item" />
     </div>
   </div>
@@ -17,6 +17,7 @@ import Navbar from "./components/Navbar.vue";
 import Filters from "./components/Filters.vue";
 import Filter_Button from "./components/Filter_Button.vue";
 import Todo from "./components/Todo.vue";
+import Filter_Text from "./components/Fliter_Text.vue";
 export default {
   name: "app",
   components: {
@@ -25,6 +26,7 @@ export default {
     Filters,
     Filter_Button,
     Todo,
+    Filter_Text,
   },
   data() {
     return {
@@ -52,6 +54,32 @@ export default {
           left_class: "w-1 z-10 h-full bg-[#27AE60]",
           class:
             "flex z-0 items-center overflow-hidden w-[57px] h-[36px] bg-[#F2F2F2] rounded-md",
+        },
+      ],
+      text_class: [
+        {
+          class:
+            "flex items-center justify-between pb-4 border-b border-[#42A5F5] w-full px-1",
+        },
+        {
+          class:
+            "flex items-center justify-between pb-4 border-b border-gray w-full px-1",
+        },
+        {
+          class:
+            "flex items-center justify-between pb-4 border-b border-gray w-full px-1",
+        },
+        {
+          class:
+            "flex items-center justify-between pb-4 border-b border-gray w-full px-1",
+        },
+        {
+          class:
+            "flex items-center justify-between pb-4 border-b border-gray w-full px-1",
+        },
+        {
+          class:
+            "flex items-center justify-between pb-4 border-b border-gray w-full px-1",
         },
       ],
       todoList: [
