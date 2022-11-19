@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto mt-2.5">
+  <div class="container mx-auto mt-2.5 px-5">
     <div class="border border-[#E0E3EB] rounded-md overflow-hidden">
       <div class="py-4 px-5 flex items-center bg-[#F7F8FC]">
         <div class="basis-[70%] flex items-center">
